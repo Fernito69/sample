@@ -10,6 +10,7 @@ const connectDB = async () => {
         })
         console.log("Database connected")
     } catch (error) {   
+        console.log('There was an error')
         console.log(error)
         process.exit(1)
     }
